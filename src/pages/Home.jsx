@@ -2,6 +2,11 @@ import Navbar from "../components/Navbar"
 import Stats from "../components/Stats"
 import ProjectCard from "../components/ProjectCard"
 import { useEffect } from "react";
+import ucams from "../assets/projects/ucams.png";
+import WasteTyre from "../assets/projects/Waste-Tyre.png";
+import EPRBattery from "../assets/projects/EPR-Battery.png";
+import BFCSofttech from "../assets/projects/BFC-Softtech.png";
+import BookStore from "../assets/projects/Book-Store.png";
 
 export default function Home() {
   useEffect(() => {
@@ -11,23 +16,23 @@ export default function Home() {
   const projects = [
     {
       title: "Unified Consent & Authorization Management System (UCAMS)",
-      image: "../src/assets/projects/ucams.png",
+      image: ucams,
     },
     {
       title: "EPR Portal for Management of Waste Tyre",
-      image: "../src/assets/projects/Waste-Tyre.png",
+      image: WasteTyre,
     },
     {
       title: "EPR Portal for Battery Waste Management",
-      image: "../src/assets/projects/EPR-Battery.png",
+      image: EPRBattery,
     },
     {
       title: "BFC Softtect Website",
-      image: "../src/assets/projects/BFC-Softtech.png",
+      image: BFCSofttech,
     },
     {
       title: "BFC Publications Book Store",
-      image: "../src/assets/projects/Book-Store.png",
+      image: BookStore,
     },
   ];
 
